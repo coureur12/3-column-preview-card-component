@@ -1,0 +1,110 @@
+.flex-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    width: 307px;
+    height: 500px;
+    color: white;
+    height: auto;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.card-container p{
+    font-family: "Lexend Deca";
+}
+
+.card-container h1{
+    font-family: "Big Shoulders Display";
+}
+
+.logo-container{
+    width: min-content;
+}
+
+.title-container{
+    width: min-content;
+    font-size: 20px;
+}
+
+.text-container{
+    width: 212px;
+    height: 125px;
+    font-size: 15px;
+    padding-bottom: 83px;
+}
+
+.button-container{
+    width: min-content;
+}
+
+.button{
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 146px;
+    height: 48px;
+    border: solid #F2F2F2 2px;
+    transition: 2s;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: #F2F2F2;
+}
+
+.yellow-section-button{
+    color: #E28625;
+}
+
+.blue-section-button{
+    color: #006971;
+}
+
+.green-section-button{
+    color: #004140;
+}
+
+.first{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.end{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.yellow{
+    background-color: #E28625;
+}
+
+.blue{
+    background-color: #006971;
+}
+
+.green{
+    background-color: #004140;
+}
+
+@media screen and (max-width: 950px) {
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .text-container{
+    padding-bottom: 23px;
+    }
+
+    .first{
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .end{
+        border-radius: 0px 0px 5px 5px;
+    }
+  }
